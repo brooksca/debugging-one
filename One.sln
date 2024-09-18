@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{171775FA-2D8C-40FA-8449-3694724F0213}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FD9742F5-9A16-48E9-9018-A88E4DB7413D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "debugging.one.api", "server\src\debugging.one.api.csproj", "{EF4A4A8A-DBF9-4466-8747-A609E891F6A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF4A4A8A-DBF9-4466-8747-A609E891F6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4A4A8A-DBF9-4466-8747-A609E891F6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4A4A8A-DBF9-4466-8747-A609E891F6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4A4A8A-DBF9-4466-8747-A609E891F6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD9742F5-9A16-48E9-9018-A88E4DB7413D} = {171775FA-2D8C-40FA-8449-3694724F0213}
+		{EF4A4A8A-DBF9-4466-8747-A609E891F6A9} = {FD9742F5-9A16-48E9-9018-A88E4DB7413D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A209A8C-9EE2-4767-9619-063C8B4F6706}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+services: 
+  client:
+    container_name: debugging_one_client
+    build:
+      context: ./client #if your Dockerfile is not at the same level change the path here (./frontend)
+    environment:
+      - NODE_ENV=development
+      - NEXT_WEBPACK_USEPOLLING=1
+      - NEXT_PUBLIC_API_URL=http://localhost:5000
+    volumes:
+      - ./client/src:/app/src
+    ports:
+      - 3000:3000
+  server:
+    container_name: debugging_one_server
+    build:
+      context: ./server
+    volumes:
+      - ./server/src:/app
+    ports:
+      - 5000:8080
