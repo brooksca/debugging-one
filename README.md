@@ -10,7 +10,7 @@ The objective is to ensure the client application can successfully retrieve data
 
 ## Running the project
 
-To run the project, all that's required is opening your terminal and `cd`ing into the root directory of the project and executing `docker compose up`. This will start both the API and the UI on ports `5000` and `3000`, respectively.
+To run the project, all that's required is opening your terminal and `cd`ing into the root directory of the project and executing `docker compose up`. This will start both the API and the UI on ports `5001` and `3000`, respectively.
 
 Both the server and client applications have hot reload enabled (although the .NET application is finicky).
 
